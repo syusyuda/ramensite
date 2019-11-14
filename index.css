@@ -1,5 +1,7 @@
 ﻿
-
+body{
+    display:none;
+}
 .center{
    text-align:center;
    margin-top: 30px;
@@ -22,7 +24,7 @@
 }
 img{
     width:100%;
-    height:100%;
+    height:auto;
 }
 .shop-link{
     display:block;
@@ -30,4 +32,28 @@ img{
     margin-bottom:20px;
     position:relative;
 
+}
+/*画像上のテキスト*/
+.lower-box{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:90px;
+    background-color:rgba(0,0,0,0.2);
+    padding:12px;
+    box-sizing:border-box;
+    color:#FFFFFF;
+    overflow:hidden;
+    text-align:left;
+}
+.tag{
+    display:inline-block;
+    background:orange;
+    border-radius:5px;
+    padding:3px;
+}
+.title{
+    margin-top:5px;
+    line-height:1.2;
 }
