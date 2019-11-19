@@ -1,0 +1,46 @@
+﻿
+img{
+    width:300px;
+}
+
+.grid{
+    margin: 0 auto;
+}
+.grid-item{
+    border-radius:5px;
+    overflow:hidden;
+    margin-bottom:10px;
+    background:white;
+}
+.grid-item span{
+    color: white;
+    background: orange;
+    border-radius:14px;
+    overflow:hidden;
+    font-size:13px;
+    padding: 0 2px;
+    margin-left:2px;
+}
+@media screen and (max-width: 568px){
+    .grid{
+        width: 100%;
+    }
+    .grid-item{
+        width:100%;
+    }
+    img{
+        width:100%;
+    }
+}
+#main {
+    background: #f5deb3;
+}
+body{
+    margin: 0;
+}
+header{
+    text-align:center;
+}
+.caption{
+    border-bottom:solid 1px gray;
+}

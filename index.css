@@ -23,8 +23,8 @@ body{
         list-style-type:none;
 }
 img{
-    width:100%;
-    height:auto;
+    width:auto;
+    height:300px;
 }
 .shop-link{
     display:block;
