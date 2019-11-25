@@ -3,73 +3,31 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="index.css" />
     <title></title>
+    <link rel="stylesheet" href="index2.css" />
+    <meta name="viewport" content="width=devicd-width,initial-scale=1.0" />
 </head>
 <body>
     <header>
-        <h1>津田沼ラーメン</h1>
+        <h2>津田沼ラーメン</h2>
     </header>
-    <div class="center">
-        <div class="shop">
-            <ul class="shop-cards">
-                <li class="shop-card">
-                    <a href="#" class="shop-link">
-                        <img src="ramen/eisyo.jpg" />
-                        <div class="lower-box">
-                            <span class="tag tag-media">メディア</span>
-                            <p class="title">タイトルが入ります</p>
-                        </div>
-                    </a>
-
-                </li>
-                <li class="shop-card">
-                    <a href="#" class="shop-link">
-                        <img src="ramen/suzukisan.jpg" />
-                    </a>
-                </li>
-                <li class="shop-card">
-                    <a href="#" class="shop-link">
-                        <img src="ramen/infinite.jpg" />
-                    </a>
-                </li>
-                <li class="shop-card">
-                    <a href="#" class="shop-link">
-                        <img src="ramen/sukegawa.jpg" />
-                    </a>
-                </li>
-                <li class="shop-card">
-                    <a href="#" class="shop-link">
-                        <img src="ramen/hao.jpg" />
-                    </a>
-                </li>
-                <li class="shop-card">
-                    <a href="#" class="shop-link">
-                        <img src="ramen/kensyoken.jpg" />
-                    </a>
-                </li>
-                <li class="shop-card">
-                    <a href="#" class="shop-link">
-                        <img src="ramen/tadokoro.jpg" />
-                    </a>
-                </li>
-                <li class="shop-card">
-                    <a href="#" class="shop-link">
-                        <img src="ramen/naritake.jpg" />
-                    </a>
-                </li>
-                <li class="shop-card">
-                    <a href="#" class="shop-link">
-                        <img src="ramen/99.jpg" />
-                    </a>
-                </li>
-            </ul>
+    <div id="inst">
+        <p class="underline">津田沼</p>
+        <p>人気な津田沼駅周辺のラーメン屋さんをピックアップ！</p>
+        <p>あなたに合うお店を見つけましょう！</p>
+    </div>
+    <div id="main">
+        <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 150 ,"gutter":25,"fitWidth":true}'>
+            <div class="grid-item"><img src="ramen/99.jpg"><p class="caption">九十九ラーメン<span>創作</span></p><a href="#">こちら</a></div>
+            <div class="grid-item"><img src="ramen/eisyo.jpg"><p class="caption">栄昇ラーメン<span>魚介</span></p><a href="#">こちら</a></div>
+            <div class="grid-item"><img src="ramen/infinite.jpg"><p class="caption">無限大<span>二郎系</span></p><a href="#">こちら</a></div>
+            <div class="grid-item"><img src="ramen/kensyoken.jpg"><p class="caption">健勝軒<span>つけめん</span></p><a href="#">こちら</a></div>
+            <div class="grid-item"><img src="ramen/naritake.jpg"><p class="caption">なりたけ<span>醤油</span><span>背油</span></p><a href="#">こちら</a></div>
+            <div class="grid-item"><img src="ramen/sukegawa.jpg"><p class="caption">すけがわ<span>二郎系</span></p><a href="#">こちら</a></div>
+            <div class="grid-item"><img src="ramen/suzukisan.jpg"><p class="caption">鈴木さんラーメン<span>魚介</span></p><a href="#">こちら</a></div>
+            <div class="grid-item"><img src="ramen/tadokoro.jpg"><p class="caption">田所商店<span>味噌</span></p><a href="#">こちら</a></div>
         </div>
     </div>
-    <footer></footer>
-<!--ローディング画面-->
-    <div class="loading"><h2>ロード中</h2></div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="index.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 </body>
 </html>
