@@ -46,6 +46,7 @@ img{
     color:rgb(6, 218, 52);
     border:solid 2px rgb(6, 218, 52);
 }
+
 @media screen and (max-width: 568px){
     .grid{
         width: 100%;
@@ -58,10 +59,11 @@ img{
     }
 }
 #main {
-    background: #fffbfb;
+   
 }
 body{
     margin: 0;
+    background: #fffbfb;
 }
 /* inst */
 #inst{
