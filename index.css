@@ -32,7 +32,7 @@ img{
     padding: 0 2px;
     margin-left:2px;
 }
-.grid-item a{
+.grid-item .detail{
     width:100%;
     margin: auto;
     background:rgb(6, 218, 52);
@@ -41,20 +41,45 @@ img{
     border-radius:8px;
     text-decoration: none;
 }
-.grid-item a:hover{
+.grid-item .detail:hover{
     background:white;
     color:rgb(6, 218, 52);
     border:solid 2px rgb(6, 218, 52);
 }
 
-@media screen and (max-width: 568px){
-    .grid{
+
+/* モーダル*/
+#inline, #inline2,#inline3,#inline4,#inline5,#inline6,#inline7,#inline8{
+    display: none;
+}
+.modaal-content-container{
+    text-align:center;
+}
+.modaal-content-container img {
+    width: 50%;
+    height: auto;
+}
+#inline img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 568px) {
+    .grid {
         width: 100%;
     }
-    .grid-item{
-        width:100%;
+
+    .grid-item {
+        width: 100%;
     }
-    img{
+
+    img {
+        width: 100%;
+    }
+    /*モーダル*/
+    .modaal-content-container img {
         width:100%;
     }
 }
@@ -85,3 +110,4 @@ header h2{
 .caption{
     border-bottom:solid 1px gray;
 }
+
